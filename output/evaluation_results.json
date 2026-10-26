@@ -1,0 +1,665 @@
+{
+  "metrics": {
+    "in_scope_total": 39,
+    "in_scope_correct": 38,
+    "in_scope_accuracy": 0.9743589743589743,
+    "in_scope_top3_correct": 39,
+    "in_scope_top3_accuracy": 1.0,
+    "average_in_scope_similarity": 1.0,
+    "out_of_domain_total": 12,
+    "out_of_domain_rejected": 12,
+    "out_of_domain_rejection": 1.0,
+    "context_total": 5,
+    "context_correct": 5,
+    "context_accuracy": 1.0,
+    "overall_total": 51,
+    "overall_correct": 50,
+    "overall_accuracy": 0.9803921568627451,
+    "confidence_distribution": {
+      "High": 39,
+      "Medium": 0,
+      "Low": 0
+    }
+  },
+  "in_scope_results": [
+    {
+      "question": "What is Python?",
+      "expected": "What is Python?",
+      "matched": "What is Python?",
+      "category": "Basics",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "Why is Python popular?",
+      "expected": "Why is Python popular?",
+      "matched": "Why is Python popular?",
+      "category": "Basics",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What can Python be used for?",
+      "expected": "What can Python be used for?",
+      "matched": "What can Python be used for?",
+      "category": "Basics",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "Is Python difficult to learn?",
+      "expected": "Is Python difficult to learn?",
+      "matched": "Is Python difficult to learn?",
+      "category": "Basics",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a list?",
+      "expected": "What is a list?",
+      "matched": "What is a list?",
+      "category": "Lists",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I create a list?",
+      "expected": "How do I create a list?",
+      "matched": "How do I create a list?",
+      "category": "Lists",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I copy a list?",
+      "expected": "How do I copy a list?",
+      "matched": "How do I copy a list?",
+      "category": "Copying",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I sort a list?",
+      "expected": "How do I sort a list?",
+      "matched": "How do I sort a list?",
+      "category": "Lists",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a list comprehension?",
+      "expected": "What is a list comprehension?",
+      "matched": "What is a list comprehension?",
+      "category": "Comprehensions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a tuple?",
+      "expected": "What is a tuple?",
+      "matched": "What is a tuple?",
+      "category": "Data Structures",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I create a tuple?",
+      "expected": "How do I create a tuple?",
+      "matched": "How do I create a tuple?",
+      "category": "Data Structures",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a dictionary?",
+      "expected": "What is a dictionary?",
+      "matched": "What is a dictionary?",
+      "category": "Dictionaries",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I create a dictionary?",
+      "expected": "How do I create a dictionary?",
+      "matched": "How do I create a dictionary?",
+      "category": "Dictionaries",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is dictionary get()?",
+      "expected": "What is dictionary get()?",
+      "matched": "What is dictionary get()?",
+      "category": "Dictionaries",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a set?",
+      "expected": "What is a set?",
+      "matched": "What is a set?",
+      "category": "Data Structures",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I create a set?",
+      "expected": "How do I create a set?",
+      "matched": "How do I create a set?",
+      "category": "Data Structures",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a string?",
+      "expected": "What is a string?",
+      "matched": "What is a string?",
+      "category": "Strings",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I reverse a string?",
+      "expected": "How do I reverse a string?",
+      "matched": "How do I reverse a string?",
+      "category": "Strings",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a function?",
+      "expected": "What is a function?",
+      "matched": "What is a function?",
+      "category": "Functions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I define a function?",
+      "expected": "How do I define a function?",
+      "matched": "How do I define a function?",
+      "category": "Functions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What are function arguments?",
+      "expected": "What are function arguments?",
+      "matched": "What are function arguments?",
+      "category": "Functions",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a class?",
+      "expected": "What is a class?",
+      "matched": "What is a class?",
+      "category": "OOP",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is inheritance?",
+      "expected": "What is inheritance?",
+      "matched": "What is inheritance?",
+      "category": "OOP",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a generator?",
+      "expected": "What is a generator?",
+      "matched": "What is a generator?",
+      "category": "Advanced",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is an iterator?",
+      "expected": "What is an iterator?",
+      "matched": "What is an iterator?",
+      "category": "Advanced",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What does yield do?",
+      "expected": "What does yield do?",
+      "matched": "What does yield do?",
+      "category": "Advanced",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a lambda function?",
+      "expected": "What is a lambda function?",
+      "matched": "What is a lambda function?",
+      "category": "Functions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is an exception?",
+      "expected": "What is an exception?",
+      "matched": "What is an exception?",
+      "category": "Exceptions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I handle exceptions?",
+      "expected": "How do I handle exceptions?",
+      "matched": "How do I handle exceptions?",
+      "category": "Exceptions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a for loop?",
+      "expected": "What is a for loop?",
+      "matched": "What is a for loop?",
+      "category": "Loops",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a while loop?",
+      "expected": "What is a while loop?",
+      "matched": "What is a for loop?",
+      "category": "Loops",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": false,
+      "top3_correct": true
+    },
+    {
+      "question": "What does len() do?",
+      "expected": "What does len() do?",
+      "matched": "What does len() do?",
+      "category": "Built-ins",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What does range() do?",
+      "expected": "What does range() do?",
+      "matched": "What does range() do?",
+      "category": "Loops",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I open a file?",
+      "expected": "How do I open a file?",
+      "matched": "How do I open a file?",
+      "category": "File Handling",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a virtual environment?",
+      "expected": "What is a virtual environment?",
+      "matched": "What is a virtual environment?",
+      "category": "Environment",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "How do I convert a string to an integer?",
+      "expected": "How do I convert a string to an integer?",
+      "matched": "How do I convert a string to an integer?",
+      "category": "Type Conversion",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is a dictionary comprehension?",
+      "expected": "What is a dictionary comprehension?",
+      "matched": "What is a dictionary comprehension?",
+      "category": "Comprehensions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is recursion?",
+      "expected": "What is recursion?",
+      "matched": "What is recursion?",
+      "category": "Functions",
+      "confidence": "High",
+      "similarity": 1.0,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    },
+    {
+      "question": "What is variable scope?",
+      "expected": "What is variable scope?",
+      "matched": "What is variable scope?",
+      "category": "Advanced",
+      "confidence": "High",
+      "similarity": 1.0000000000000002,
+      "accepted": true,
+      "correct": true,
+      "top3_correct": true
+    }
+  ],
+  "out_of_domain_results": [
+    {
+      "question": "What is the capital of France?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "Who is the president of the United States?",
+      "rejected": true,
+      "matched": "How do I print something in Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "What is the weather today?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "How do I cook pasta?",
+      "rejected": true,
+      "matched": "How do I print something in Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "Who won the cricket match?",
+      "rejected": true,
+      "matched": "How do I print something in Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "What is the best phone to buy?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "Tell me a joke.",
+      "rejected": true,
+      "matched": "How do I print something in Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "What is machine learning?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "How do I learn guitar?",
+      "rejected": true,
+      "matched": "Is Python difficult to learn?",
+      "similarity": 0.45879517769255934,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "What is the population of India?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "How do I edit a photo?",
+      "rejected": true,
+      "matched": "How do I print something in Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    },
+    {
+      "question": "What is the latest movie?",
+      "rejected": true,
+      "matched": "What is Python?",
+      "similarity": 0.0,
+      "confidence": "Low",
+      "category": "Out of Domain"
+    }
+  ],
+  "context_results": [
+    {
+      "name": "List creation follow-up",
+      "conversation": [
+        {
+          "question": "What is a list?",
+          "expected": "What is a list?",
+          "matched": "What is a list?",
+          "similarity": 1.0,
+          "confidence": "High",
+          "correct": true
+        },
+        {
+          "question": "How do I create one?",
+          "expected": "How do I create a list?",
+          "matched": "How do I create a list?",
+          "similarity": 0.7429133885992516,
+          "confidence": "High",
+          "correct": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "name": "Tuple creation follow-up",
+      "conversation": [
+        {
+          "question": "What is a tuple?",
+          "expected": "What is a tuple?",
+          "matched": "What is a tuple?",
+          "similarity": 1.0,
+          "confidence": "High",
+          "correct": true
+        },
+        {
+          "question": "How do I create one?",
+          "expected": "How do I create a tuple?",
+          "matched": "How do I create a tuple?",
+          "similarity": 0.7451718185092435,
+          "confidence": "High",
+          "correct": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "name": "Dictionary creation follow-up",
+      "conversation": [
+        {
+          "question": "What is a dictionary?",
+          "expected": "What is a dictionary?",
+          "matched": "What is a dictionary?",
+          "similarity": 1.0,
+          "confidence": "High",
+          "correct": true
+        },
+        {
+          "question": "How do I create one?",
+          "expected": "How do I create a dictionary?",
+          "matched": "How do I create a dictionary?",
+          "similarity": 0.7248249648992839,
+          "confidence": "High",
+          "correct": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "name": "Set creation follow-up",
+      "conversation": [
+        {
+          "question": "What is a set?",
+          "expected": "What is a set?",
+          "matched": "What is a set?",
+          "similarity": 1.0,
+          "confidence": "High",
+          "correct": true
+        },
+        {
+          "question": "How do I create one?",
+          "expected": "How do I create a set?",
+          "matched": "How do I create a set?",
+          "similarity": 0.7545091755887341,
+          "confidence": "High",
+          "correct": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "name": "Generator follow-up",
+      "conversation": [
+        {
+          "question": "What is a generator?",
+          "expected": "What is a generator?",
+          "matched": "What is a generator?",
+          "similarity": 1.0,
+          "confidence": "High",
+          "correct": true
+        },
+        {
+          "question": "What does it do?",
+          "expected": "What is a generator?",
+          "matched": "What is a generator?",
+          "similarity": 0.8376175472577446,
+          "confidence": "High",
+          "correct": true
+        }
+      ],
+      "correct": true
+    }
+  ]
+}

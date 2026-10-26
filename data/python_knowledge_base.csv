@@ -1,0 +1,127 @@
+question,answer,category
+What is Python?,Python is a high-level general-purpose programming language known for its readable syntax and broad ecosystem.,Basics
+What are the main features of Python?,"Python offers readable syntax, dynamic typing, object-oriented programming, extensive libraries, and cross-platform support.",Basics
+What is a variable in Python?,A variable is a name that refers to an object in Python. You create one by assigning a value such as x = 10.,Basics
+How do I print something in Python?,"Use the print() function. For example, print('Hello') displays Hello.",Basics
+What are Python data types?,"Common built-in types include int, float, complex, bool, str, list, tuple, set, dict, and NoneType.",Data Types
+What is the difference between a list and a tuple?,A list is mutable while a tuple is immutable. Lists use square brackets and tuples commonly use parentheses.,Data Structures
+What is a dictionary in Python?,"A dictionary stores key-value pairs and is written using braces, such as {'name': 'Karthi'}.",Data Structures
+What is a set in Python?,A set is an unordered collection of unique elements. It is useful for membership tests and removing duplicates.,Data Structures
+How do I create a list in Python?,"Use square brackets with comma-separated values, for example numbers = [1, 2, 3].",Data Structures
+What is list slicing?,List slicing extracts part of a sequence using syntax such as items[start:stop:step].,Data Structures
+What is a string in Python?,A string is an immutable sequence of Unicode characters and can be created with single or double quotes.,Strings
+How do I convert a string to lowercase?,"Call the lower() method, for example text.lower().",Strings
+How do I check the length of a string?,"Use the len() function, for example len('Python') returns 6.",Strings
+What is an f-string?,"An f-string is a formatted string literal that lets you embed expressions inside braces, for example f'Hello {name}'.",Strings
+What are Python operators?,"Python has arithmetic, comparison, assignment, logical, identity, membership, and bitwise operators.",Operators
+What does == mean in Python?,The == operator tests whether two values are equal.,Operators
+What does is mean in Python?,The is operator tests whether two references point to the same object.,Operators
+What is the difference between == and is?,== compares values while is checks object identity.,Operators
+How do I write an if statement?,"Use if followed by a condition and a colon, then indent the statements to execute when it is true.",Control Flow
+How do I use elif in Python?,elif adds another condition after an if statement and before an optional else block.,Control Flow
+How does a for loop work?,"A for loop iterates over the items of an iterable such as a list, string, range, or dictionary.",Loops
+How does a while loop work?,A while loop repeatedly executes a block while its condition remains true.,Loops
+What does range() do?,range() produces a sequence of integers commonly used for looping a specified number of times.,Loops
+What does break do in Python?,break immediately exits the nearest enclosing loop.,Loops
+What does continue do in Python?,continue skips the rest of the current loop iteration and moves to the next iteration.,Loops
+What does pass do in Python?,pass is a no-operation statement used when syntax requires a statement but no action is needed.,Control Flow
+What is a function in Python?,A function is a reusable block of code defined with def that can accept arguments and return a value.,Functions
+How do I define a function?,"Use the def keyword followed by the function name, parameters, and a colon, then indent the function body.",Functions
+What is a return statement?,return ends a function and optionally sends a value back to the caller.,Functions
+What are function arguments?,Arguments are values supplied to a function when it is called. They can be positional or keyword arguments.,Functions
+What are default arguments?,Default arguments are parameters with predefined values used when the caller does not provide those arguments.,Functions
+What is *args?,*args collects extra positional arguments into a tuple inside a function.,Functions
+What is **kwargs?,**kwargs collects extra keyword arguments into a dictionary inside a function.,Functions
+What is a lambda function?,A lambda is a small anonymous function written with the lambda keyword and usually used for short expressions.,Functions
+What is a Python module?,"A module is a Python file containing code such as functions, classes, or variables that can be imported into another program.",Modules
+How do I import a module?,"Use import followed by the module name, for example import math.",Modules
+What is the math module?,math is a standard-library module providing mathematical functions and constants.,Modules
+What is pip?,pip is the standard Python package installer used to install and manage packages.,Environment
+What is a virtual environment?,A virtual environment is an isolated Python environment that keeps project dependencies separate from other projects.,Environment
+How do I create a virtual environment?,Run python -m venv .venv in the project directory to create a virtual environment named .venv.,Environment
+What is exception handling?,"Exception handling lets a program respond to runtime errors using constructs such as try, except, else, and finally.",Exceptions
+How do I use try and except?,Put code that may fail inside try and handle a matching exception in an except block.,Exceptions
+What is finally?,The finally block runs after try and except processing whether or not an exception occurred.,Exceptions
+How do I raise an exception?,Use the raise statement followed by an exception instance or exception class.,Exceptions
+What is a class in Python?,A class is a blueprint for creating objects and defining their attributes and behavior.,OOP
+What is an object in Python?,An object is an instance of a class containing state and behavior defined by that class.,OOP
+What is __init__?,__init__ is an initializer method commonly used to set up an object's attributes when an instance is created.,OOP
+What is self in Python?,self refers to the current object instance inside an instance method.,OOP
+What is inheritance?,Inheritance lets a class derive attributes and methods from another class.,OOP
+What is polymorphism?,Polymorphism allows different object types to provide compatible behavior through a common interface.,OOP
+What is encapsulation?,Encapsulation groups data and methods together and helps control how implementation details are exposed.,OOP
+What is a list comprehension?,A list comprehension creates a list from an iterable using a compact expression with optional filtering.,Comprehensions
+What is a dictionary comprehension?,A dictionary comprehension creates a dictionary using an expression and iteration syntax.,Comprehensions
+What is an iterator?,An iterator is an object that produces values one at a time through the iterator protocol.,Advanced
+What is a generator?,A generator is an iterator commonly created with a function containing yield and produces values lazily.,Advanced
+What does yield do?,yield pauses a generator and produces a value; execution resumes when the generator is advanced again.,Advanced
+What is the difference between append and extend?,append adds one object as a single list element while extend adds each element from an iterable.,Lists
+How do I sort a list?,Use list.sort() to sort the list in place or sorted(list) to create a new sorted list.,Lists
+What is sorted()?,sorted() returns a new list containing the sorted items from an iterable.,Lists
+How do I remove an item from a list?,"Use remove(value), pop(index), or del depending on whether you want to remove by value or position.",Lists
+What is None in Python?,None is a singleton object representing the absence of a value or a null-like state.,Basics
+What is a Boolean in Python?,bool is the Boolean type and has two values: True and False.,Data Types
+What is type() used for?,type() returns the type of an object.,Basics
+What is isinstance()?,isinstance() checks whether an object is an instance of a specified class or tuple of classes.,Basics
+What is mutable in Python?,"A mutable object can be changed after creation. Lists, dictionaries, and sets are common mutable types.",Data Types
+What is immutable in Python?,"An immutable object cannot be changed after creation. Strings, tuples, and integers are common immutable types.",Data Types
+What is indentation in Python?,"Indentation defines code blocks in Python and is required for structures such as functions, loops, and conditional statements.",Basics
+What is PEP 8?,PEP 8 is the main style guide for Python code and recommends conventions that improve readability and consistency.,Best Practices
+What is a docstring?,"A docstring is a string literal used to document a module, class, function, or method.",Best Practices
+What is the Python standard library?,The standard library is the collection of modules and packages distributed with Python that provide commonly needed functionality.,Modules
+How do I read a text file?,"Use open() with an appropriate mode, commonly with a with statement, then call read() or iterate over the file.",File Handling
+Why use with open()?,The with statement manages the file resource and ensures it is properly closed after the block finishes.,File Handling
+What are file modes in Python?,"Common modes include r for reading, w for writing or truncating, a for appending, and b for binary mode.",File Handling
+How do I write to a file?,Open the file with a writable mode such as w or a and call write() or writelines().,File Handling
+What is JSON in Python?,The json standard-library module converts between JSON data and Python objects using functions such as loads() and dumps().,Data Formats
+How do I convert a Python dictionary to JSON?,Use json.dumps(dictionary) to produce a JSON-formatted string or json.dump() to write JSON to a file.,Data Formats
+What is a package in Python?,A package is a way to organize related Python modules under a common namespace.,Modules
+What is __name__ == '__main__'?,It checks whether a Python file is being run directly rather than imported as a module.,Basics
+What is recursion?,Recursion is a technique where a function calls itself to solve a problem by reducing it to smaller cases.,Functions
+What is a decorator?,A decorator is a callable that wraps another function or class to extend or modify its behavior.,Advanced
+What is map()?,map() applies a function to each item of an iterable and returns an iterator containing the results.,Built-ins
+What is filter()?,filter() returns an iterator containing items from an iterable for which a supplied function returns true.,Built-ins
+What is zip()?,zip() combines corresponding elements from multiple iterables into tuples.,Built-ins
+What is enumerate()?,enumerate() produces pairs containing an index and the corresponding item while iterating over an iterable.,Built-ins
+What does len() do?,len() returns the number of items in an object that supports the length protocol.,Built-ins
+What does input() do?,input() reads a line of text from standard input and returns it as a string.,Built-ins
+How do I convert a string to an integer?,Use int(text) to convert a suitable string to an integer.,Type Conversion
+How do I convert a string to a float?,Use float(text) to convert a suitable string to a floating-point number.,Type Conversion
+What is type conversion?,"Type conversion changes a value from one data type to another using functions such as int(), float(), str(), and list().",Type Conversion
+What is a shallow copy?,A shallow copy creates a new outer object while nested objects are still shared with the original.,Copying
+What is a deep copy?,A deep copy recursively copies nested objects so the copied structure does not share the same nested objects with the original where possible.,Copying
+How do I copy a list?,"You can use list.copy(), slicing with [:], or the copy module depending on whether a shallow or deep copy is required.",Copying
+What is tuple unpacking?,"Tuple unpacking assigns elements from an iterable to multiple variables in one statement, such as a, b = (1, 2).",Data Structures
+What is dictionary get()?,"dict.get(key, default) returns the value for a key or a default value when the key is absent.",Dictionaries
+How do I loop through a dictionary?,"Use for key in dictionary, dictionary.items(), dictionary.keys(), or dictionary.values() depending on what you need.",Dictionaries
+What is a namespace?,A namespace is a mapping from names to objects that helps prevent naming conflicts in Python programs.,Advanced
+What is scope in Python?,"Scope determines where a name can be accessed. Python commonly follows the LEGB rule: Local, Enclosing, Global, Built-in.",Advanced
+What is LEGB?,"LEGB stands for Local, Enclosing, Global, Built-in and describes the order Python uses when resolving names.",Advanced
+What is garbage collection?,Python manages memory automatically and includes garbage collection mechanisms for reclaiming certain objects that are no longer reachable.,Advanced
+What is GIL?,"In standard CPython, the Global Interpreter Lock allows only one thread to execute Python bytecode at a time within a process.",Advanced
+What is threading?,Threading runs multiple threads within a process and is often useful for I/O-bound tasks in Python.,Advanced
+What is multiprocessing?,Multiprocessing uses separate processes and can run CPU-bound Python code in parallel across processes.,Advanced
+What is async programming?,Asynchronous programming allows cooperative concurrency using constructs such as async and await and is useful for many I/O-bound workloads.,Advanced
+Is Python difficult to learn?,Python is generally considered beginner-friendly because its syntax is readable and relatively simple. The difficulty depends on the concepts and applications being learned.,Basics
+Is Python easy for beginners?,"Yes. Python is widely used by beginners because of its readable syntax, simple structure, and extensive learning resources.",Basics
+How hard is Python to learn?,"Python is relatively easy to start with, although advanced topics such as decorators, generators, concurrency, and memory management require more experience.",Basics
+Why is Python popular?,"Python is popular because it has readable syntax, a large standard library, a large package ecosystem, and applications across web development, automation, data science, and machine learning.",Basics
+What can Python be used for?,"Python can be used for automation, web development, data analysis, machine learning, scientific computing, scripting, and many other tasks.",Basics
+What is a list?,"A list is an ordered, mutable collection in Python that can store multiple values. Lists are created using square brackets, for example [1, 2, 3].",Lists
+How do I create a list?,"You can create a list using square brackets, for example numbers = [1, 2, 3]. You can also create an empty list using [].",Lists
+What is a tuple?,"A tuple is an ordered, immutable collection in Python. Tuples are commonly written using parentheses, for example (1, 2, 3).",Data Structures
+How do I create a tuple?,"You can create a tuple using parentheses, for example values = (1, 2, 3). A single-element tuple requires a trailing comma, such as (5,).",Data Structures
+What is a dictionary?,"A dictionary is a mutable collection that stores data as key-value pairs. It is created using curly braces, for example {'name': 'Karthi', 'age': 24}.",Dictionaries
+How do I create a dictionary?,"You can create a dictionary using curly braces with key-value pairs, for example student = {'name': 'Karthi', 'age': 24}. You can also create an empty dictionary using {}.",Dictionaries
+What is a set?,"A set is an unordered collection of unique elements in Python. Sets are created using curly braces, for example {1, 2, 3}.",Data Structures
+How do I create a set?,"You can create a set using curly braces, for example numbers = {1, 2, 3}. An empty set must be created using set(), because {} creates an empty dictionary.",Data Structures
+What is a string?,"A string is a sequence of characters used to represent text in Python. Strings can be written using single quotes, double quotes, or triple quotes.",Strings
+How do I reverse a string?,"You can reverse a string using slicing with [::-1]. For example, text[::-1] returns the characters of text in reverse order.",Strings
+What is a function?,A function is a reusable block of code that performs a specific task. Functions are defined using the def keyword and can accept arguments and return values.,Functions
+What is a class?,A class is a blueprint for creating objects in Python. It defines attributes and methods that describe the data and behavior of those objects.,OOP
+What is an exception?,An exception is an error or unexpected event that occurs while a Python program is running. Exceptions can be handled using try and except blocks.,Exceptions
+How do I handle exceptions?,"You can handle exceptions using try and except blocks. Put code that may raise an exception inside try, and use except to handle the error.",Exceptions
+What is a for loop?,"A for loop is used to iterate over the items of a sequence or other iterable, such as a list, tuple, string, or range.",Loops
+What is a while loop?,A while loop repeatedly executes a block of code as long as its condition remains true.,Loops
+How do I open a file?,"You can open a file using Python's open() function. For example, file = open('example.txt', 'r') opens a text file for reading.",File Handling
+What is variable scope?,"Variable scope determines where a variable can be accessed in a Python program. Common scopes include local, enclosing, global, and built-in scope.",Advanced
